@@ -1,1 +1,1 @@
-# horchtnskyi.githyb.io
+# Horchtnskyi.githyb.io
