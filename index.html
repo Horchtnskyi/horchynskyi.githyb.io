@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="Сведение, Мастеринг, Электронная музыка">
+	<meta name="description" contetn="Профессиональное Сведение и Мастеринг ваших треков, низкие цены и гарантия качества">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Профессиональное сведение и мастеринг</title>
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+    <script src="jquery-color-master/jquery.color.svg-names.js"></script>
+    <script src="jquery-color-master/Gruntfile.js"></script>
+    <script src="jquery-color-master/jquery.color.js"></script>
+	<script src="jsscript.js"></script>
+
+
+</head>
+<body onload="timer()">
+		<!--Menu-->
+<div class="menu_fusion">
+	<div class="menu">
+			<div class="logo"></div>
+			<div class="timer">
+				<span class="timer"><span id="hideZeroMin">0</span><span id="min">0</span>:<span id="hideZeroSec">0</span><span id="sec">-1</span></span>
+			</div>
+			<ul class="Menu_home_navigation">
+				<center><li class="selected"><a>Главная</a></li><li><a>Новости</a></li><li><a>Портфолио</a></li><li><a>О нас</a></li></center>
+			</ul>
+		</div>
+</div>		
+	<div id="content">
+
+		<!--header-->
+		<div class="details_header_fusion">
+			<div class="detalis_header">
+				<div class="detalis_aling_left">
+					<span>Время работы: 9:00-20:00 (воскресение выходной) |</span>
+					<a href="mailto:sales@arefyevstudio.com">sales@arefyevstudio.com</a>
+
+				</div>
+				<div class="detalis_aling_right">
+					<a href=""><div class="icons"><img src="images/icons/fb.png"></div></a>
+					<a href=""><div class="icons"><img src="images/icons/tw.png"></div></a>
+				</div>	
+			</div>
+		</div>
+
+		<!--immage_title-->
+			<div class="title_image">
+				<div class="text_in_image_fusion">
+                        <div class="box_text">
+					<div class="text_in_image1">
+						<h2><b>Послушайте мастеринг своего трека <br>
+						БЕСПЛАТНО!</b></h2>
+					</div>
+					<div class="text_in_image2">
+						<h2>Не нужно гадать как будет звучать ваш трек после мастеринга.
+						Оплата производится после прослушивания демо-варианта!</h2>
+					</div>
+                        </div>
+                    <div class="form">
+					<form action="" method="post" name="loginForm" onsubmit="valid(this)">
+						<label for="login">Ваше имя:</label>
+						<input type="text" name="login" placeholder="Имя" id="login"> <br> <br> 
+						<label for="login">Ваш email:</label>
+						<input type="text" name="email" placeholder="email" id="email"><br> <br> 
+						<label for="password">Прикрепите трек в формате wav:</label>
+						<input type="file" name="file" accept="audio/wav" id="password"><br> <br> 
+						<input type="button" name="button" value="Прислать" id="button_submit" onclick="valid(form)">
+                    </form>
+
+			     </div>
+                
+					<div class="menu_phone">
+						<div class="icon_menu_phone"></div>
+						<div class="navigetion"><h2>Навигация</h2></div>
+					</div>
+					
+				</div>	
+				<a class="send_track">Прислать трек</a>
+				<!--bottoms-->
+				<a class="left_bottom"></a>
+				<a class="right_bottom"></a>
+			</div>
+		
+		<!--Information-->
+			<div class="box_information">
+				<div class="information_colum">
+					<h1><span class="information_text_correct">Чем занимается</span> студия<span class="information_text_correct1">?</span></h1><br>
+					<p>Мы предоставляем полный пакет услуг: сведение (light, medium, complex, expert), мастеринг pro, stem-mastering, реставрацию записанных аудио с мобильных носителей, написание музыки и инструментов для Ваших треков.</p><br>
+				</div>
+				
+
+				<div class="information_colum">
+					<div class="information_rows">
+						<h2>Мастеринг<span class="information_text_correct1">:</span></h2><br>
+						<p>Аналоговый мастеринг позволяет выровнять частотную и динамическую характеристики трека, устранить шумы, добиться плотного и громкого звучания.</p><br>
+					</div>
+
+					<div class="information_rows">
+						<h2>Сведение<span class="information_text_correct1">:</span></h2><br>
+						<p>Тщательная обработка всех участков трека: эквализация, компрессия, наполнение эффектами и пространством, сбалансированное звучание всех инструментов. </p><br>
+					</div>
+
+					<div class="information_rows">
+						<h2>Запись <span class="information_text_correct">инструментов</span><span class="information_text_correct2">:</span></h2><br>
+						<p>Если Вашим трекам не хватает живых инструментов или нет возможности их записать — вы можете заказать данную услугу у нас. Профессиональный музыкант сыграет мелодии любой сложности! </p><br>
+					</div>
+				</div>
+
+				<div class="information_colum">
+					<div class="information_rows">
+						<h2>RE<span class="information_text_correct">-<br>mastering</span><span class="information_text_correct2">:</span></h2><br>
+						<p>Устранение ошибок ранее сделанного мастеринга. Повторная диагностика, эквализация, компрессия. Максимальное приближение к эталонам.</p><br>
+					</div>
+
+					<div class="information_rows">
+						<h2>Автотюн<span class="information_text_correct1">:</span></h2><br>
+						<p>Даже известные исполнители часто поют мимо нот. Автотюн — это коррекция вокала по высоте и длительности звучания. </p><br>
+					</div>
+
+					<div class="information_rows">
+						<h2>Аудио <span class="information_text_correct">реставрация</span><span class="information_text_correct2">:</span></h2><br>
+						<p>Выравнивание и очистка аудио записей полученных с внешних носителей (диктофонов, видеокамер, пластинок, кассет). Устранение дефектов речи, шумов, фона, треска, щелчков и других неприятных звуков. </p><br>
+					</div>
+				</div>
+        </div>    
+
+			<!--Progress-->
+			<div class="box_progress">
+				<div class="box_progress_box">
+					<h1>Достижения студии</h1>
+					<div class="box_progress_colum">
+						<div class="box_progress_rows">
+							<div class="icon">
+							</div>
+							<p><span class="information_text_correct1">558</span><br> Сведенных проектов</p>
+						</div>
+
+					</div>
+					<div class="box_progress_colum">
+						<div class="box_progress_rows">
+							<div class="icon">
+							</div>
+							<p><span class="information_text_correct1">478</span><br> Отмастеренных треков</p>
+						</div>
+						
+
+					</div>
+					<div class="box_progress_colum">
+						<div class="box_progress_rows">
+							<div class="icon">
+							</div>
+							<p><span class="information_text_correct1">89</span><br> Часов чистого звука</p>
+
+						</div>
+
+					</div>
+					<div class="box_progress_colum">
+						<div class="box_progress_rows">
+							<div class="icon">
+							</div>
+							<p><span class="information_text_correct1">4880</span><br> Гигабайт музыки</p>
+
+						</div>
+
+					</div>
+
+
+				</div>
+
+			</div>
+
+
+			<!--Evaluate our work-->
+			<div class="box_Evaluate">
+				<div class="evaluete">
+                    <h1>ОЦЕНИТЕ НАШУ <span class="information_text_correct1">РАБОТУ</span></h1>
+                    
+                    <p>Здесь можно послушать примеры работ в формате «До — После». («До» — исходный вариант, «После» — сведение и мастеринг студии с пожеланиями клиентов).</p>
+                    <div class="box_example">
+                        <div class="example_button_left"><div class="example_left"></div></div>
+                            <div class="example_flex">
+                                <div><p>Послушать</p></div>
+                                <div><p>Послушать</p></div>
+                                <div><p>Послушать</p></div>
+                                <div><p>Послушать</p></div>
+                                <div><p>Послушать</p></div>
+                                <div><p>Послушать</p></div>
+                                <div><p>Послушать</p></div>
+                                <div><p>Послушать</p></div>
+                            </div>
+                        <div class="example_button_right"><div class="example_right"><div></div>
+                    </div>
+				</div>
+			</div>
+                    
+            <div class="track_audio_box">
+                <p>До:</p>  <div class ="track_before"></div>
+                <p>После:</p> <div class ="track_after"></div>
+            </div>
+
+
+	           </div>
+        </div>
+            <!-- Reviews -->
+            <div class ="revies_fusion">
+                <div class="revieves_box">
+                    <div><p>“В конце 2015 года я выпустил альбом Placidity. Треки звучали несбалансированно и тускло.
+                    Я решил, что так не пойдет и обратился в студию Арефьева. На протяжении работы над альбомом ребята чутко реагировали на все пожелания и капризы) А уж в итоге… В итоге получился альбом с красивым насыщенным саундом. Искренне рекомендую эту студию!)”</p><h2>Алексей Агнатев</h2></div>
+                    <div><p>“Студия Арефьева – это команда профессионалов,они действительно работают на результат, очень внимательны к деталям. Если вам нужен качественный звук, точные сроки, то вы в нужном месте.”</p><h2>Алексей Агнатев</h2></div>
+                    <div><p>“Очень благодарен за качественную работу! Все сделано в обещанные короткие сроки, все неоднократные пожелания в доработке нюансов выполнены как надо!)) И конечно отличное отношение к заказчику, что очень приятно! Огромное спасибо!”</p><h2>Алексей Агнатев</h2></div>
+                </div>
+            </div>
+        
+        <!-- ! -->
+        <div class="box_Evaluate">
+        </div>
+
+</body>
+</html>
